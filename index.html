@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Crowd Control Interaction Bookmarklet</title>
+</head>
+<body>
+<div class="top-bar">
+    <div class="container">
+        <div class="row" style="max-width: 56rem;margin: auto;">
+            <div class="col-6 text-start">Crowd Control Bookmarklet</div>
+            <div class="col-6 text-end"><a href="https://github.com/jayo-exe/cc2-interact-bookmarklet"><i class="fa-brands fa-github"></i> Github</a></div>
+        </div>
+    </div>
+</div>
+<div class="container mt-4" style="display:flex;flex:1;max-height:calc(100% - 1.5em - 28px)">
+    <section id="settings" style="flex: 1;max-height: calc(100% - 28px);max-width: 56rem;margin: auto;">
+        <div class="section-heading">
+            <div class="section-title">
+                <h1>A Better Way to Play</h1>
+                <small>A more spacious Crowd Control experience and direct access to the <strong>Global Coin</strong> store are just a click away.</small>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col text-center">
+                <a class="btn d-block btn-lg btn-teal"
+                   href='javascript:void function(){(function(){if(document.querySelector(".cc-bh"))return!1;window.__cc_iv=!1;const a=document.querySelector.bind(document);let b=function(){window.__cc_iv=!window.__cc_iv,a(".chat-room").style.setProperty("display",window.__cc_iv?"none":"flex","important"),a(".cc-eh").style.setProperty("display",window.__cc_iv?"flex":"none","important"),a("#chat-room-header-label").innerHTML=window.__cc_iv?"CROWD CONTROL":"STREAM CHAT",a(".cc-bh").style.setProperty("background",window.__cc_iv?"#030":"transparent")},c=null;window.__APOLLO_CLIENT__.queryManager.queries.forEach(a=>{a.variables.hasOwnProperty("channelID")&&null===c&&(c=a.variables.channelID)});let d=document.createElement("style");d.innerText=".channel-root__info--with-chat .channel-info-content, .channel-root--watch-chat+.persistent-player {width: 100% !important} .right-column:not(.right-column--collapsed), .channel-root__right-column {width:45rem !important} .channel-root__right-column--collapsed {transform:translateX(-45rem) translateZ(0px) !important} .channel-root__right-column--expanded, .toggle-visibility__right-column--expanded {transform:none !important}",document.head.appendChild(d);let e=document.createElement("section");e.classList.add("cc-eh"),e.setAttribute("style","flex:1 !important;width:100% !important;display:none !important");let f=document.createElement("iframe");f.src=`https://interact.crowdcontrol.live/#/twitch/${c}/coins`,f.setAttribute("style","width:100%;height:100%"),e.appendChild(f),a(".stream-chat").appendChild(e);let g=document.querySelector(".stream-chat-header button:first-of-type").parentNode;g.querySelector("button").addEventListener("click",function(){window.__cc_iv&&b()},!1);let h=g.cloneNode(!0);h.classList.add("cc-bh");let i=h.querySelector("button");i.addEventListener("click",b,!1),i.style.width="auto",i.innerHTML="<img src=\"https://crowdcontrol.live/wp-content/themes/crowd-control/dist/assets/images/logo/horizontal/logo-horizontal.png\" height=\"24\">",g.parentNode.insertBefore(h,g)})()}();'
+                   onClick="alert('Click and drag the button into your Bookmarks bar'); return false;">Twitch CC2 Menu</a>
+                <small>works on Chrome, Firefox, and Edge</small>
+            </div>
+        </div>
+        <div class="section-body inner scrollable" style="">
+
+            <div class="row">
+                <div class="col section-panel mb-3">
+                    <div class="panel-heading">
+                        <h3>Step 1: Install the Bookmarklet</h3>
+                    </div>
+                    <p>Click and drag the button above onto your Bookmarks or Favorites bar so you can access it from anywhere</p>
+                    <div class="text-center">
+                        <img style="max-width: 100%;" src="./assets/step1.gif">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col section-panel mb-3">
+                    <div class="panel-heading">
+                        <h3>Step 2: Find a Stream</h3>
+                    </div>
+                    <p>Settle in with your favorite interactive gamer, or maybe <a href="https://www.twitch.tv/search?term=Crowd%20Control">discover someone new</a></p>
+                    <div class="text-center">
+                        <img style="max-width: 100%;" src="./assets/step2.png">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col section-panel mb-3">
+                    <div class="panel-heading">
+                        <h3>Step 3: Click on the Bookmarklet</h3>
+                    </div>
+                    <p>Clicking the bookmarklet while you're on a Twitch stream provides a new Crowd Control button for easy access to the effects list, and the <strong>Global Coin</strong> store!</Strong></p>
+                    <div class="text-center">
+                        <img style="max-width: 100%;" src="./assets/step3.gif">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col section-panel mb-3">
+                    <div class="panel-heading">
+                        <h3>Step 4: Enjoy!</h3>
+                    </div>
+                    <p>...why are you still reading this?  Get out there and cause some chaos!</p>
+                    <div class="text-center">
+                        <img style="max-width: 100%;" src="./assets/step4.gif">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+
+<style>
+    .btn::after,.btn:hover{background-color:var(--cc-color-s100)}.section-panel .panel-heading h3,section .section-title h1{line-height:normal;margin-bottom:0}.top-bar{background:linear-gradient(270deg,var(--cc-color-y200) 0,var(--cc-color-r100) 45%,var(--cc-color-r100) 55%,var(--cc-color-ro100) 95%);color:var(--cc-color-s800);font-size:var(--cc-text-size-sm);font-weight:var(--cc-text-weight-h4);text-transform:uppercase}.btn,body{color:var(--cc-color-white)}.btn,.btn-sm{line-height:var(--cc-text-size-sm);font-weight:600}:root{--cc-text-size-h1:40px;--cc-text-weight-h1:900;--cc-text-height-h1:60px;--cc-text-size-h2:32px;--cc-text-weight-h2:800;--cc-text-height-h2:48px;--cc-text-size-h3:24px;--cc-text-weight-h3:700;--cc-text-height-h3:36px;--cc-text-size-h4:20px;--cc-text-weight-h4:600;--cc-text-height-h4:30px;--cc-text-size-h5:16px;--cc-text-weight-h5:500;--cc-text-height-h5:24px;--cc-text-size-xl:24px;--cc-text-weight-xl:500;--cc-text-height-xl:32px;--cc-text-size-lg:20px;--cc-text-weight-lg:500;--cc-text-height-lg:30px;--cc-text-size-md:14px;--cc-text-weight-md:400;--cc-text-height-md:24px;--cc-text-size-sm:12px;--cc-text-weight-sm:300;--cc-text-height-sm:21px;--cc-text-size-xs:8px;--cc-text-weight-xs:300;--cc-text-height-xs:18px;--cc-color-white:#fafafa;--cc-color-slate:#323353;--cc-color-yellow:#ffec3b;--cc-color-red:#f74660;--cc-color-blurple:#6666ff;--cc-color-teal:#1ee2bd;--cc-color-royal:#332772;--cc-color-w100:#fafafa;--cc-color-w200:#cdcde9;--cc-color-w300:#aaaacd;--cc-color-w400:#8181a5;--cc-color-s100:#535b80;--cc-color-s200:#404668;--cc-color-s300:#373c5e;--cc-color-s400:#323353;--cc-color-s500:#2d304d;--cc-color-s600:#282943;--cc-color-s700:#212136;--cc-color-s800:#1a172a;--cc-color-y100:#faef8d;--cc-color-y200:#ffec3b;--cc-color-y300:#e48d0a;--cc-color-y400:#ce6b0f;--cc-color-r100:#f98c9c;--cc-color-r200:#f74660;--cc-color-r300:#c31841;--cc-color-r400:#890836;--cc-color-b100:#94aaf7;--cc-color-b200:#6666ff;--cc-color-b300:#4746b8;--cc-color-b400:#333199;--cc-color-t100:#aff1d2;--cc-color-t200:#1ee2bd;--cc-color-t300:#049572;--cc-color-t400:#0a5946;--cc-color-ro100:#5b52c0;--cc-color-ro200:#332772;--cc-color-ro300:#1a143a;--cc-color-ro400:#151129}body{font-family:Poppins;background-color:var(--cc-color-s800);font-size:var(--cc-text-size-md);font-weight:var(--cc-text-weight-md);line-height:var(--cc-text-height-md);display:flex;flex-direction:column;height:100vh}.btn,.btn-sm,small{font-size:var(--cc-text-size-sm)}small{font-weight:var(--cc-text-weight-sm);line-height:var(--cc-text-height-sm);color:var(--cc-color-w200)}h1{font-size:var(--cc-text-size-h1);font-weight:var(--cc-text-weight-h1);line-height:var(--cc-text-height-h1)}h2,section .section-title h1{font-weight:var(--cc-text-weight-h2)}h2{font-size:var(--cc-text-size-h2);line-height:var(--cc-text-height-h2)}h3{font-size:var(--cc-text-size-h3);font-weight:var(--cc-text-weight-h3);line-height:var(--cc-text-height-h3)}h4,section .section-title h1{font-size:var(--cc-text-size-h4)}.section-panel .panel-heading h3,h4{font-weight:var(--cc-text-weight-h4)}h4{line-height:var(--cc-text-height-h4)}h5{font-size:var(--cc-text-size-h5);font-weight:var(--cc-text-weight-h5);line-height:var(--cc-text-height-h5)}.btn{position:relative;border-radius:6px;border:0;padding:8px 20px 8px 12px;background-color:var(--cc-color-slate)}.btn::after{content:"";display:block;position:absolute;right:0;top:0;bottom:0;width:6px;border-radius:0 6px 6px 0}.btn:hover{color:var(--cc-color-s700);padding:8px 16px}.btn:active::after,.btn:hover::after{display:none}.btn:active{background-color:var(--cc-color-s700);color:var(--cc-color-s100);padding:8px 16px}.btn-blurple::after,.btn-blurple:hover{background-color:var(--cc-color-b100)}.btn-sm,.btn-sm:hover{padding:6px 12px}.btn-sm{border-radius:4px}.btn-sm::after{width:4px;border-radius:0 4px 4px 0}.btn-lg{border-radius:8px;padding:16px 24px 16px 16px;font-size:var(--cc-text-size-xl);line-height:var(--cc-text-size-xl);font-weight:800}.section-panel,section{padding:16px;border-radius:8px}.btn-lg::after{width:8px;border-radius:0 8px 8px 0}.btn-lg:hover{padding:16px 20px}.btn-blurple{background-color:var(--cc-color-b300)}.btn-blurple:hover{color:var(--cc-color-b400)}.btn-blurple:active{background-color:var(--cc-color-b400);color:var(--cc-color-b100)}.btn-teal::after,.btn-teal:hover{background-color:var(--cc-color-t200)}.btn-teal{background-color:var(--cc-color-t300)}.btn-teal:hover{color:var(--cc-color-t400)}.btn-teal:active{background-color:var(--cc-color-t400);color:var(--cc-color-t200)}.btn-yellow::after,.btn-yellow:hover{background-color:var(--cc-color-y200)}.btn-yellow{background-color:var(--cc-color-y300)}.btn-yellow:hover{color:var(--cc-color-y400)}.btn-yellow:active{background-color:var(--cc-color-y400);color:var(--cc-color-y200)}.btn-red::after,.btn-red:hover{background-color:var(--cc-color-r100)}.btn-red{background-color:var(--cc-color-r300)}.btn-red:hover{color:var(--cc-color-r400)}.btn-red:active{background-color:var(--cc-color-r400);color:var(--cc-color-r100)}section{background:var(--cc-color-s600);display:flex;flex-direction:column;max-height:100%}section .inner{max-height:100%;overflow-y:auto;overflow-x:hidden}section .inner.scrollable{overflow-y:scroll;padding-right:16px}.section-panel .panel-heading,section .section-heading{display:flex;align-items:center;margin-bottom:24px}.section-panel{background:var(--cc-color-s800);margin:0 12px}.section-panel .panel-heading h3{font-size:var(--cc-text-size-h5)}::-webkit-scrollbar{width:4px;border-radius:4px;background-color:var(--cc-color-s700)}::-webkit-scrollbar-thumb{border-radius:4px;background-color:var(--cc-color-w400)}
+</style>
+</body>
+</html>
