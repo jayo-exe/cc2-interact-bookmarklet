@@ -6,4 +6,4 @@ Use Crowd Control more comfortably, with your effects menu close at hand, with f
 The bookmarklet is entirely self-contained, makes no network requests (aside from a logo image), and is less than 2KB long, so it'll even work with Edge!
 
 ## Installation
-Getting set yup is dead-simple. Just go to the [**Bookmarklet Setup Page**](https://jayo-exe.github.io/cc2-interact-bookmarklet) here and follow the instructions!
+Getting set up is dead-simple. Just go to the [**Bookmarklet Setup Page**](https://jayo-exe.github.io/cc2-interact-bookmarklet) here and follow the instructions!
