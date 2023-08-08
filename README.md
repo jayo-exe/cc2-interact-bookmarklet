@@ -1,5 +1,5 @@
 # Enhanced Menu Bookmarklet for Crowd Control 2
-A bookmarklet that provides an improves and expanded display of the Crowd Control 2.0 menu.  
+A bookmarklet that provides an improved and expanded display of the Crowd Control 2.0 menu.  
 
 Use Crowd Control more comfortably, with your effects menu close at hand, with full support to purchase Global Coins, without leaving your favorite stream.  Currently only supports Twitch streams.
 
